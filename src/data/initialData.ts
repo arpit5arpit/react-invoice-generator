@@ -35,9 +35,7 @@ export const initialInvoice: Invoice = {
       description: 'Brochure Design',
       quantity: '2',
       rate: '100.00',
-    },
-    { ...initialProductLine },
-    { ...initialProductLine },
+    }
   ],
   subTotalLabel: 'Sub Total',
   taxLabel: 'Sale Tax (10%)',
